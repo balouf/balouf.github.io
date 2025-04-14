@@ -1,0 +1,16 @@
+[project]
+name = "balouf_github_io"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ipython>=9.1.0",
+    "myst-parser[linkify]>=4.0.1",
+    "nbsphinx>=0.9.7",
+    "pydata-sphinx-theme>=0.16.1",
+    "sphinx-copybutton>=0.5.2",
+]
