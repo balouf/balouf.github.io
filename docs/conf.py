@@ -152,6 +152,12 @@ html_theme_options = {
             "url": "https://github.com/balouf/balouf.github.io",
             "icon": "fa-brands fa-github",
         },
+{
+            "name": "HAL",
+            "url": "https://cv.hal.science/fabien-mathieu",
+            "icon": "fa fa-book",  # Choose a FontAwesome icon you like
+            "type": "fontawesome",
+        },
     ],
     "footer_start": [],
     "footer_center": [],
