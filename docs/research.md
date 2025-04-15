@@ -9,4 +9,4 @@ My principle fields of interests:
 
 [All my publications](https://cv.hal.science/fabien-mathieu) are now managed via [HAL](https://hal.archives-ouvertes.fr/).
 
-https://github.com/search?q=user:balouf+topic:research&type=repositories
+[Some of my Github repos are related to my research.](https://github.com/search?q=user:balouf+topic:research&type=repositories)

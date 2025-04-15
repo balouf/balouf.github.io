@@ -130,12 +130,15 @@ html_favicon = 'favicon.ico'
 html_show_sourcelink = False
 
 html_title = 'Fabien Mathieu'
-
+html_sidebars = {
+    "**": []
+}
 html_theme_options = {
 "logo": {
       "image_light": "light.jpg",
       "image_dark": "dark.jpg",
    },
+"navigation_depth": 1,
     "navbar_start": ["navbar-logo"],
     "icon_links": [
         {
