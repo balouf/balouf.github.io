@@ -149,7 +149,7 @@ html_theme_options = {
         },
         {
             "name": "GitHub",
-            "url": "https://github.com/balouf/balouf.github.io",
+            "url": "https://github.com/balouf",
             "icon": "fa-brands fa-github",
         },
 {
