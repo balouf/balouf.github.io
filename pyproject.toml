@@ -1,9 +1,20 @@
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
 [project]
 name = "balouf_github_io"
 version = "0.1.0"
-description = "Add your description here"
+description = "Webpage of Fabien Mathieu"
 readme = "README.md"
 requires-python = ">=3.12"
+authors = [
+    {name = "Fabien Mathieu", email = "fabien.mathieu@normalesup.org"}
+]
+maintainers = [
+    {name = "Fabien Mathieu", email = "fabien.mathieu@normalesup.org"}
+]
+
 dependencies = []
 
 [dependency-groups]
