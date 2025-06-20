@@ -8,14 +8,14 @@
 * [My Github](https://github.com/balouf).
 
 
-## Short bio
+## Short third-person bio
 
 
 Fabien Mathieu is the research leader at Swapcard where he works with his team focusing on diverse topics from explainable recommendations to matching algorithms.
 
-Prior to Swapcard, he went back and forth between the industry and the academic worlds, working for Orange, Inria, and Bell Labs.
+Prior to Swapcard, he moved between industry and academia, working for Orange, Inria, and Bell Labs.
 
-Former student from the École Normale Supérieure, he holds a Ph.D. in Computer Science, wrote more than 100 research papers, and supervised many PhD students.
+A former student of the École Normale Supérieure, he holds a Ph.D. in Computer Science, has published more than 100 research papers, and has supervised many Ph.D. students.
 
 ## FAQ
 
@@ -25,11 +25,11 @@ The answer is actually simple:
 In South of France, where I was born, 
 it is common to use the prefix *Lou* to form nickname, like *El* in Spanish.
 
-For exemple, a good-looking person could be nicknamed *Lou Bèu*.
+For example, a good-looking person could be nicknamed *Lou Bèu*.
 
-My nickname from *Provence* is just *Lou Fab*, after my first name, and I wanted to use it in Github but I registered too late and someone else already took it. So I scrambled the letters and *balouf* came out! 
+My nickname from *Provence* is just *Lou Fab*, after my first name, and I wanted to use it in Github but I registered too late and someone else already took it. So I scrambled the letters, and *balouf* came out! 
 
-### Technomage ?!?!?!
+### Technomage?! (What’s that?)
 
 I chose the job title *technomage* because it is much cooler than *Senior AI Research Scientist*.
 
@@ -39,5 +39,5 @@ I have been in many companies and each of them has its own system of grades and 
 * In Bell Labs, two independent systems of class (*III-A*) and grades (*10*) existed simultaneously, not to mention the ultimate *Distinguished Member of Technical Staff* (DMTS) title.
 * Swapcard has a traditional junior/senior system with sub-grades, but they allowed me to define my own title ;)
 
-It can be easy to get lost, so I decided to craft my own title. 
-As a fan of [Babylon 5](https://en.wikipedia.org/wiki/Babylon_5), I ended up with Technomage.
+It’s easy to get lost, so I decided to craft my own title.
+As a fan of [Babylon 5](https://en.wikipedia.org/wiki/Babylon_5), I settled on [Technomage](https://babylon5.fandom.com/wiki/Techno-mage).
