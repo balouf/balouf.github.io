@@ -19,3 +19,8 @@ Some of my GitHub repositories are related to my research. [See them here!](http
 * **[Can a Condorcet Rule Have a Low Coalitional Manipulability?](https://hal.science/hal-01369877v1/document):** This article on voting systems is centered around a simple result: if low (coalitional) manipulability is sought, then methods that respect the Condorcet criterion should be considered.
 * **[Epidemic live streaming: optimal performance trade-offs](https://inria.hal.science/hal-00668529v1/document):** What is the performance (loss and delay) of gossip-like chunk diffusion techniques?
 * **[Self-stabilization in preference-based systems](https://inria.hal.science/hal-00667082v1):** The PBS framework helps understand the performance of unstructured distributed systems where interactions are driven by participant interests. One key ingredient is *acyclicity*, a property ensured by node- and edge-based metrics, which provides convergence guarantees.
+
+```{eval-rst}
+.. raw:: html
+   :file: fabmap.html
+```

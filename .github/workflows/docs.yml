@@ -32,6 +32,8 @@ jobs:
       - name: Build Sphinx documentation
         run: |
           uv sync --all-extras
+          uv run python balouf_github_io/fabmap.py
+          mv fabmap.html docs/
           uv run sphinx-build -a -E -b html docs build
 
       - name: Deploy Sphinx documentation on Github Pages
