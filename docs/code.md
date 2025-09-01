@@ -6,6 +6,7 @@ Below are some of my selected open-source Python packages:
 
 ## Selected Packages
 
+* [GisMap](https://balouf.github.io/gismap/): Visualize and analyze publications and co-authors in research.
 * [Package Helper 3 (PH3)](https://balouf.github.io/package-helper-3/): A boilerplate to create, develop, and maintain a Python package with uv.
 * [A Generic Information Search... With a Mind of its Own! (GISMO)](https://balouf.github.io/gismo/): A low-cost NLP tool to rank and organize a corpus of documents according to a query.
 * [Remote Compression (RComp)](https://balouf.github.io/remote-compression/): Helps perform x265 video compression locally or on a remote server.

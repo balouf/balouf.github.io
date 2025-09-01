@@ -7,6 +7,12 @@
 * [My publications](https://cv.hal.science/fabien-mathieu).
 * [My Github](https://github.com/balouf).
 
+## My EgoMap
+
+```{eval-rst}
+.. raw:: html
+   :file: fabmap.html
+```
 
 ## Short third-person bio
 
