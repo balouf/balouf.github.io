@@ -55,6 +55,11 @@ extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode', 'sphinx.ext.napoleon'
 # Smart code copy
 copybutton_exclude = '.linenos, .gp, .go'
 
+# Gismaps
+def setup(app):
+    app.add_css_file("https://unpkg.com/vis-network/styles/vis-network.min.css")
+    app.add_js_file("https://unpkg.com/vis-network/standalone/umd/vis-network.min.js")
+
 # MYST configuration
 myst_enable_extensions = ['linkify', 'dollarmath', 'colon_fence']
 myst_heading_anchors = 3
