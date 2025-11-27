@@ -16,7 +16,7 @@ maintainers = [
 ]
 
 dependencies = [
-    "gismap>=0.2.1",
+    "gismap>=0.3.0",
 ]
 
 [dependency-groups]
