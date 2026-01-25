@@ -5,7 +5,7 @@
 * Researcher at [NPA (Sorbonne University)](https://www-npa.lip6.fr/).
 * Email: `fabien[ta]swapcard[tod]com`.
 * [My publications](https://cv.hal.science/fabien-mathieu).
-* [My Github](https://github.com/balouf).
+* [My GitHub](https://github.com/balouf).
 
 ## My EgoMap
 
@@ -25,15 +25,15 @@ A former student of the École Normale Supérieure, he holds a Ph.D. in Computer
 
 ## FAQ
 
-### Why is my Github username Balouf?
+### Why is my GitHub username Balouf?
 
 The answer is actually simple: 
-In South of France, where I was born, 
-it is common to use the prefix *Lou* to form nickname, like *El* in Spanish.
+In the South of France, where I was born,
+it is common to use the prefix *Lou* to form nicknames, like *El* in Spanish.
 
 For example, a good-looking person could be nicknamed *Lou Bèu*.
 
-My nickname from *Provence* is just *Lou Fab*, after my first name, and I wanted to use it in Github but I registered too late and someone else already took it. So I scrambled the letters, and *balouf* came out! 
+My nickname from *Provence* is just *Lou Fab*, after my first name, and I wanted to use it in GitHub but I registered too late and someone else already took it. So I scrambled the letters, and *balouf* came out! 
 
 ### Technomage?! (What’s that?)
 
