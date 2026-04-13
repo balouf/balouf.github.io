@@ -163,10 +163,16 @@ cython_debug/
 # PyCharm / JetBrains IDE config
 .idea/
 
-# Locally generated map artifacts (fabmap.py writes these next to itself or at repo root
-# depending on cwd). The CI publishes copies inside docs/ — at the repo root they are noise.
+# Locally generated gismap maps. Canonical location is docs/ (where Sphinx reads them);
+# kept on disk between runs so `build.py --no-maps` can skip the slow regeneration.
+# Never committed: CI regenerates them from scratch on every push.
+docs/fabmap.html
+docs/npa.html
+# Historical guards: earlier fabmap.py invocations sometimes wrote to the repo root
+# or next to the script itself. Ignore those stray locations too.
 /fabmap.html
 /npa.html
+balouf_github_io/*.html
 
 # Ruff stuff:
 .ruff_cache/
