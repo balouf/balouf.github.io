@@ -15,9 +15,8 @@ flow — no `gh-pages` branch).
 
 ```bash
 uv sync --all-extras
-uv run python balouf_github_io/fabmap.py
-mv balouf_github_io/*.html docs/
-uv run sphinx-build -a -E -b html docs build
+uv run python build.py             # full build (regenerates the maps — slow)
+uv run python build.py --no-maps   # skip map regeneration
 ```
 
 Then open `build/index.html`.
