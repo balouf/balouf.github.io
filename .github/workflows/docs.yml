@@ -1,11 +1,21 @@
-# This workflow will generate the docs on each push, and publish them on GitHub Pages if the branch is "master".
+# This workflow generates the docs on each push, and publishes them on GitHub Pages
+# (via the native Pages-from-Actions flow) if the branch is "main".
 
 name: docs
 
 on: [push]
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 240
     steps:
@@ -22,8 +32,6 @@ jobs:
 
       - name: Set up uv
         uses: astral-sh/setup-uv@v5
-        with:
-          version: "0.6.13"
 
       - name: Setup Pandoc
         uses: pandoc/actions/setup@v1
@@ -34,14 +42,22 @@ jobs:
         run: |
           uv sync --all-extras
           uv run python balouf_github_io/fabmap.py
-          mv *.html docs/
+          mv balouf_github_io/*.html docs/
           uv run sphinx-build -a -E -b html docs build
 
-      - name: Deploy Sphinx documentation on Github Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        if: github.ref == 'refs/heads/main'
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
-          folder: build/
-          single-commit: true
+          path: build/
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

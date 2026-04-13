@@ -24,22 +24,6 @@ import balouf_github_io
 sys.path.insert(0, os.path.abspath('..'))
 
 
-autodoc_mock_imports = []
-try:
-    import numpy
-except ImportError:
-    autodoc_mock_imports.append('numpy')
-
-try:
-    import sklearn
-except ImportError:
-    autodoc_mock_imports.append('sklearn')
-
-try:
-    import cython
-except ImportError:
-    autodoc_mock_imports.append('cython')
-
 # -- General configuration ---------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -66,11 +50,7 @@ myst_heading_anchors = 3
 myst_links_external_new_tab = True
 
 # Add the possibility to access python documentation.
-intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
-                       'sklearn': ('https://scikit-learn.org/stable', None),
-                       'numpy': ('https://numpy.org/doc/stable/', None),
-                       'scipy': ('https://docs.scipy.org/doc/scipy/', None),
-                       'matplotlib': ('https://matplotlib.org/stable/', None), }
+intersphinx_mapping = {'python': ('https://docs.python.org/3', None)}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

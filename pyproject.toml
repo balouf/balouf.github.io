@@ -1,6 +1,6 @@
 [build-system]
-requires = ["poetry-core>=2.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
 name = "balouf_github_io"
@@ -16,8 +16,12 @@ maintainers = [
 ]
 
 dependencies = [
-    "gismap>=0.3.0",
+    "gismap>=0.5.3",
 ]
+
+[project.urls]
+Homepage = "https://balouf.github.io"
+Repository = "https://github.com/balouf/balouf.github.io"
 
 [dependency-groups]
 dev = [
