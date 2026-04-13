@@ -14,6 +14,11 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# Silence tqdm progress bars from gismap (they render as thousands of
+# carriage-return lines in GitHub Actions logs).
+env:
+  TQDM_DISABLE: "1"
+
 jobs:
   build:
     runs-on: ubuntu-latest
