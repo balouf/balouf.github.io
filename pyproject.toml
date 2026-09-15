@@ -16,7 +16,7 @@ maintainers = [
 ]
 
 dependencies = [
-    "gismap>=0.5.4",
+    "gismap>=0.6.3",
 ]
 
 [project.urls]
