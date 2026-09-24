@@ -6,7 +6,7 @@ I enjoy playing music—mostly [euphonium](https://en.wikipedia.org/wiki/Euphoni
 
 * [Kaleido](https://balouf.github.io/kaleido): A jazz quintet/sextet that plays standards (with a special affinity for Wayne Shorter) and a few original tunes.
 * [Choeur de la Maison de l'Argentine](https://www.facebook.com/choeurArgentin/): A choir specializing in [South American music](https://youtu.be/3a5w_v1HU28?si=H5s7UN_7ojFpMjXx).
-* [Hashembé]([https://www.chorim.fr/](https://www.instagram.com/hashembe.theband/)): A rock band. While not a true crew member, I randomly help with soundcheck, run the desk during the show, and guest on a couple of tracks.
+* [Hashembé](https://www.instagram.com/hashembe.theband/): A rock band. While not a true crew member, I randomly help with soundcheck, run the desk during the show, and guest on a couple of tracks.
 
 ## Past Groups
 
